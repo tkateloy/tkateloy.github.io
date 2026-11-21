@@ -9,28 +9,44 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- Optional: upload your resume PDF to /files/ as resume.pdf and uncomment the next line -->
-<!-- [Download my resume (PDF)](/files/resume.pdf){: .btn .btn--primary} -->
+[Download my resume (PDF)](/files/resume.pdf){: .btn .btn--primary}
 
 Education
 ======
-* **B.S. Mechanical Engineering**, University of California, San Diego (in progress, junior transfer)
-  * Coursework: MAE 3 (Intro to Engineering Graphics & Design), MAE 8 (MATLAB Programming)
-* **Transfer coursework**, _[Your previous college]_, Ventura, CA
+* **University of California, San Diego**, San Diego, CA
+  * B.S. Mechanical Engineering, Sep 2026 – Jun 2029 (expected)
+  * Relevant coursework: Mechanical Design, Materials Science, MATLAB
+* **Ventura College**, Ventura, CA
+  * A.S. Mechanical Engineering, GPA 3.92/4.0, Aug 2024 – May 2026
+  * A.S. Computer Science, 2022 – 2026
+  * Relevant coursework: Engineering Design/CAD, SolidWorks I (Engineering Mechanical Design), Engineering Statics, Electronic Circuit Analysis + Lab, MATLAB Programming, Engineering Physics I–III, Calculus I–III, Linear Algebra, Differential Equations
+  * Honors: Dean's List (6 terms)
+
+Experience
+======
+* **3D Printing Intern / Mentor**, Idea Center Makerspace, Ventura, CA, Aug 2025 – May 2026
+  * Ran, calibrated and maintained FDM 3D printers for dimensionally accurate prints, and fixed hardware and slicing problems to make prints better and more reliable
+  * Tuned CAD models and slicer settings for 3D printing in Prusa Slicer, SolidWorks and OnShape, and worked on the gearing assembly for the 3D Printed Wave Machine display
+  * Mentored K-12 students through the engineering design and prototyping process and enforced lab safety rules
+* **Tutor**, Private Tutoring, Ventura, CA, Aug 2024 – Aug 2026
+  * Tutored college students one-on-one in Calculus, Physics and Engineering Design, working through problems step by step
+* **Treasurer**, Ventura College Computer Science Club, Aug 2025 – Aug 2026
+  * Managed the club budget and worked with club leadership to grow membership from 15 to 50+ students (more than 3×)
 
 Engineering Teams
 ======
-* **Project Daedalus**, UCSD Rocket Propulsion Lab
-
-Certifications
-======
-* SOLIDWORKS Certified Associate (CSWA)
+* **Project Daedalus**, Rocket Propulsion Laboratory at UCSD, Fall 2026 – Present
 
 Skills
 ======
-* **CAD & design:** SOLIDWORKS, tolerancing & GD&T, assemblies, 3ds Max
-* **Fabrication:** 3D printing (FDM), rapid prototyping, hand assembly
-* **Programming:** MATLAB
+* **CAD & Drawings:** SolidWorks (CSWA), OnShape, AutoCAD; parametric parts, assemblies, engineering drawings, GD&T, tolerances
+* **Design & Manufacturing:** DFM, DFAM, FDM additive manufacturing (Prusa Slicer), prototyping, fabrication, hands-on assembly
+* **Testing & Analysis:** Prototype testing, root-cause troubleshooting, statics, circuit analysis, electromechanical integration
+* **Programming & Software:** MATLAB, C++, Python, Java, Arduino, ESP32, Excel; technical writing, design reviews
+
+Certifications
+======
+* SOLIDWORKS Certified Associate (CSWA), Dassault Systèmes, May 2026
 
 Projects
 ======

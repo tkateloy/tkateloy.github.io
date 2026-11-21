@@ -1,19 +1,21 @@
 ---
-title: "Tennis Ball Robot (MAE 3, In Progress)"
-excerpt: "Team robot with a tilting truck-style bed that guides tennis balls into holes. I led the drive module analysis."
+title: "MAE 3 Class - Tennis Ball Robot"
+excerpt: "A team robot with a tilting truck-style bed that guides tennis balls into holes. I led the drive module analysis <br/> (UCSD MAE 3 Introduction to Engineering Graphics & Design, Fall 2026, in progress)"
 collection: portfolio
+share: false
+comments: false
 ---
 
-<!-- ![Robot](/images/robot.jpg) -->
+For UCSD's MAE 3 (Fall 2026), I'm on a three-person team designing a robot that delivers tennis balls into target holes.
 
-## Goal
-As part of a three-person team, design a robot that delivers tennis balls into target holes.
+Concept
+======
+Our robot has a truck-style bed that **raises, lowers and tilts** using a spring-assisted jack and a geared motor. It drives with differential steering.
 
-## Challenges
-_[Add, e.g. balancing drive speed against control]_
+My Role
+======
+I'm responsible for the **drive module analysis**, optimizing for the robot's speed.
 
-## Solution & Results
-- Team concept: a truck-style bed that **raises, lowers and tilts** using a spring-assisted jack and geared motor
-- Differential steering
-- **My role:** drive module analysis, optimizing for robot speed
-- _[Add final results]_
+Results
+======
+_Coming at the end of the quarter._

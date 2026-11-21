@@ -24,7 +24,7 @@ Education
 
 Experience
 ======
-* **3D Printing Intern / Mentor**, Idea Center Makerspace, Ventura, CA, Aug 2025 – May 2026
+* **3D Printing Intern**, Idea Center Makerspace, Ventura, CA, Aug 2025 – May 2026
   * Ran, calibrated and maintained FDM 3D printers for dimensionally accurate prints, and fixed hardware and slicing problems to make prints better and more reliable
   * Tuned CAD models and slicer settings for 3D printing in Prusa Slicer, SolidWorks and OnShape, and worked on the gearing assembly for the 3D Printed Wave Machine display
   * Mentored K-12 students through the engineering design and prototyping process and enforced lab safety rules

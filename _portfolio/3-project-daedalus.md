@@ -1,17 +1,17 @@
 ---
-title: "Project Daedalus: G-Class Rocket (In Progress)"
-excerpt: "Designing and building a G-class model rocket with a 4–6 person team at UCSD's Rocket Propulsion Lab, launching Spring 2027."
+title: "Rocket Propulsion Lab at UCSD - Project Daedalus"
+excerpt: "Designing and building a G-class model rocket with a 4–6 person team for a Spring 2027 launch <br/> (UCSD Rocket Propulsion Laboratory, Fall 2026 – Present)"
 collection: portfolio
+share: false
+comments: false
 ---
 
-**Fall 2026 – Present** · Rocket Propulsion Laboratory at UCSD · CAD · Simulation · MATLAB
+At UC San Diego's Rocket Propulsion Laboratory (RPL), I'm on Project Daedalus, a 4–6 person team designing and building a G-class model rocket for a **Spring 2027 launch**.
 
-## Goal
-Design, build and launch a G-class model rocket with a 4–6 person team, aiming for a **Spring 2027 launch**.
+Approach
+======
+We're using CAD, simulation and MATLAB, with design reviews at each stage. The rocket has a 38 mm motor mount and flies an **AeroTech G80T-7** motor.
 
-## Approach
-- Using CAD, simulation and MATLAB, with design reviews at each stage
-- 38 mm motor mount, flying an **AeroTech G80T-7** motor
-
-## Results
+Results
+======
 _Coming after launch: photos, flight data and lessons learned._

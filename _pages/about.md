@@ -12,7 +12,7 @@ Hi, I'm Trang (TK) Kateloy, a Mechanical Engineering student at UC San Diego. I 
 Some highlights:
 - Led a team that designed a **3D-printed 1:10 race car** from scratch, which reached **42 mph**
 - Built a **custom DC motor** that ran at **over 20 V**, nearly 3× the next best in my class
-- **3D Printing Intern / Mentor** at the Idea Center Makerspace
+- **3D Printing Intern** at the Idea Center Makerspace
 - **SOLIDWORKS CSWA** certified
 - Currently building a G-class rocket with **Project Daedalus** at UCSD's Rocket Propulsion Lab
 

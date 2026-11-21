@@ -3,13 +3,11 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-[Download my resume (PDF)](/files/resume.pdf){: .btn .btn--primary}
+[View my resume](/resume/){: .btn .btn--primary}
 
 Education
 ======

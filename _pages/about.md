@@ -18,4 +18,4 @@ Some highlights:
 
 **I'm looking for a Spring/Summer 2027 engineering internship** in aerospace, automotive, manufacturing, or medical devices.
 
-[See my projects](/portfolio/){: .btn .btn--primary} [View my CV](/cv/){: .btn} [Resume (PDF)](/files/resume.pdf){: .btn}
+[See my projects](/portfolio/){: .btn .btn--primary} [View my CV](/cv/){: .btn} [Resume](/resume/){: .btn}

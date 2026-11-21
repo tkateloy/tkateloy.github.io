@@ -1,6 +1,7 @@
 ---
 title: "Certification - SOLIDWORKS CSWA"
-excerpt: "Certified SOLIDWORKS Associate, earned by passing a timed, proctored exam <br/> (Dassault Systèmes, May 2026)"
+excerpt: "Certified SOLIDWORKS Associate, earned by passing a timed, proctored exam"
+context: "Dassault Systèmes, May 2026"
 collection: portfolio
 share: false
 comments: false

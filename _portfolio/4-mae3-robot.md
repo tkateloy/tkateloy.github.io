@@ -1,6 +1,7 @@
 ---
 title: "MAE 3 Class - Tennis Ball Robot"
-excerpt: "A team robot with a tilting truck-style bed that guides tennis balls into holes. I led the drive module analysis <br/> (UCSD MAE 3 Introduction to Engineering Graphics & Design, Fall 2026, in progress)"
+excerpt: "A team robot with a tilting truck-style bed that guides tennis balls into holes. I led the drive module analysis"
+context: "UCSD MAE 3 Introduction to Engineering Graphics & Design, Fall 2026, in progress"
 collection: portfolio
 share: false
 comments: false

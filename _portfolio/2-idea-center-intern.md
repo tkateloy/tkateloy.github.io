@@ -1,6 +1,7 @@
 ---
 title: "Idea Center Makerspace - 3D Printing Intern"
-excerpt: "Ran, calibrated and maintained FDM 3D printers, tuned CAD models and slicer settings for printing, and helped build the gearing for a 3D-printed wave machine display <br/> (Idea Center Makerspace, Ventura, CA, Aug 2025 – May 2026)"
+excerpt: "Ran, calibrated and maintained FDM 3D printers, tuned CAD models and slicer settings for printing, and helped build the gearing for a 3D-printed wave machine display"
+context: "Idea Center Makerspace, Ventura, CA, Aug 2025 – May 2026"
 collection: portfolio
 share: false
 comments: false

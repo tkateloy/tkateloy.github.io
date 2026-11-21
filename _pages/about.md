@@ -1,7 +1,10 @@
 ---
 permalink: /
-title: "About Me"
-author_profile: true
+title: "Trang Kateloy"
+layout: home
+author_profile: false
+dimension: "Mechanical Engineering, UC San Diego, class of 2029"
+lede: "Looking for a Spring/Summer 2027 engineering internship in aerospace, automotive, manufacturing, or medical devices."
 redirect_from: 
   - /about/
   - /about.html
@@ -15,7 +18,3 @@ Some highlights:
 - Currently building a G-class rocket with **Project Daedalus** at UCSD's Rocket Propulsion Lab
 - Led a team that designed a **3D-printed 1:10 scale race car** from scratch
 - **SOLIDWORKS CSWA** certified
-
-I'm looking for a **Spring/Summer 2027 engineering internship** in aerospace, automotive, manufacturing, or medical devices.
-
-[See my projects](/portfolio/){: .btn .btn--primary} [View my CV](/cv/){: .btn} [Resume](/resume/){: .btn}

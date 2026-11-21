@@ -50,6 +50,4 @@ Certifications
 
 Projects
 ======
-  <ul>{% for post in site.portfolio %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>{% for post in site.portfolio %}<li><a href="{{ post.url }}">{{ post.title }}</a>{% if post.context %}, {{ post.context }}{% endif %}</li>{% endfor %}</ul>

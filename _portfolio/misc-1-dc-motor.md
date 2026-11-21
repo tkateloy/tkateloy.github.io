@@ -1,6 +1,7 @@
 ---
 title: "Electromechanical - Custom DC Motor"
-excerpt: "A DC motor designed in SolidWorks and built from 3D-printed parts. It ran reliably at over 20 V, nearly 3× the next best in the class <br/> (Ventura College, Fall 2025)"
+excerpt: "A DC motor designed in SolidWorks and built from 3D-printed parts. It ran reliably at over 20 V, nearly 3× the next best in the class"
+context: "Ventura College, Fall 2025"
 collection: portfolio
 misc: true
 share: false

@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="home">
+  <section class="hero" aria-labelledby="hero-name">
+    <img class="hero__photo" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Photo of {{ site.author.name }}">
+    <div class="hero__text">
+      <div class="hero__dimensioned">
+        <h1 class="hero__name" id="hero-name">{{ site.author.name }}</h1>
+        <div class="dimension" aria-hidden="true">
+          <span class="dimension__arrow dimension__arrow--start"></span>
+          <span class="dimension__arrow dimension__arrow--end"></span>
+          <span class="dimension__label">{{ page.dimension }}</span>
+        </div>
+      </div>
+      <p class="hero__lede">{{ page.lede }}</p>
+      <p class="hero__actions">
+        <a class="btn btn--primary" href="{{ base_path }}/portfolio/">See my projects</a>
+        <a class="btn" href="{{ base_path }}/resume/">Resume</a>
+        {% if site.author.linkedin %}<a class="btn" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+        {% if site.author.email %}<a class="btn" href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+      </p>
+    </div>
+  </section>
+
+  <div class="home__body">
+    <section class="home__about page__content">
+      {{ content }}
+    </section>
+
+    <section class="home__projects" aria-labelledby="selected-projects">
+      <h2 id="selected-projects" class="home__heading">Selected projects</h2>
+      <ul class="project-list">
+        {% assign shown = 0 %}
+        {% for post in site.portfolio %}{% unless post.misc %}{% if shown < 3 %}
+          {% include project-row.html post=post %}
+          {% assign shown = shown | plus: 1 %}
+        {% endif %}{% endunless %}{% endfor %}
+      </ul>
+      <p><a class="home__more" href="{{ base_path }}/portfolio/">All projects</a></p>
+    </section>
+  </div>
+</div>

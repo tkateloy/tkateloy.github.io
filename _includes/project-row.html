@@ -1,0 +1,8 @@
+{% include base_path %}
+<li class="project">
+  <a class="project__link" href="{{ base_path }}{{ include.post.url }}">
+    <h2 class="project__title">{{ include.post.title }}</h2>
+    {% if include.post.context %}<p class="project__context">{{ include.post.context }}</p>{% endif %}
+    {% if include.post.excerpt %}<p class="project__summary">{{ include.post.excerpt | strip_html }}</p>{% endif %}
+  </a>
+</li>

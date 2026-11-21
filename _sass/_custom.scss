@@ -1,0 +1,405 @@
+/* ==========================================================================
+   Custom look for tkateloy.github.io
+   Engineering-drawing feel: drafting-paper white, graphite ink,
+   one accent in machinist's layout blue, Barlow type.
+   ========================================================================== */
+
+$font-body      : "Barlow", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+$font-display   : "Barlow Condensed", "Barlow", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+:root {
+  --paper      : #f5f7f8;
+  --ink        : #1d2530;
+  --ink-soft   : #566270;
+  --line       : #d3d9df;
+  --accent     : #1f4fbf;   /* layout-fluid blue */
+  --accent-ink : #173c93;
+
+  --global-base-color                : var(--accent);
+  --global-bg-color                  : var(--paper);
+  --global-footer-bg-color           : var(--paper);
+  --global-border-color              : var(--line);
+  --global-dark-border-color         : var(--line);
+  --global-text-color                : var(--ink);
+  --global-text-color-light          : var(--ink-soft);
+  --global-link-color                : var(--accent);
+  --global-link-color-hover          : var(--accent-ink);
+  --global-link-color-visited        : var(--accent);
+  --global-masthead-link-color       : var(--ink);
+  --global-masthead-link-color-hover : var(--accent);
+  --global-thead-color               : #e8ecef;
+}
+
+html[data-theme="dark"] {
+  --paper      : #161b21;
+  --ink        : #dde3e9;
+  --ink-soft   : #9aa6b2;
+  --line       : #2e3742;
+  --accent     : #8aa8ff;
+  --accent-ink : #b3c6ff;
+
+  --global-base-color                : var(--accent);
+  --global-bg-color                  : var(--paper);
+  --global-footer-bg-color           : var(--paper);
+  --global-border-color              : var(--line);
+  --global-dark-border-color         : var(--line);
+  --global-text-color                : var(--ink);
+  --global-text-color-light          : var(--ink-soft);
+  --global-link-color                : var(--accent);
+  --global-link-color-hover          : var(--accent-ink);
+  --global-link-color-visited        : var(--accent);
+  --global-masthead-link-color       : var(--ink);
+  --global-masthead-link-color-hover : var(--accent);
+  --global-thead-color               : #222a33;
+}
+
+/* ---------- Base type ---------- */
+
+body {
+  margin-bottom: 0 !important;
+  font-family: $font-body;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title, .masthead, .author__name {
+  font-family: $font-display;
+  color: var(--ink);
+}
+
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+
+a:focus-visible, button:focus-visible, .btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.page__content {
+  font-size: 1.05em;
+  line-height: 1.6;
+  max-width: 68ch;
+
+  h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 1.8em;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  p, li { color: var(--ink); }
+  strong { font-weight: 600; }
+
+  img {
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    background: #fff;
+  }
+}
+
+.page__title {
+  font-size: 2.4em;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  margin-bottom: 0.25em;
+}
+
+.page__context {
+  color: var(--ink-soft);
+  font-size: 1em;
+  margin: 0 0 1.5em;
+}
+
+.page__back {
+  margin: 0 0 0.6em;
+  font-size: 0.9em;
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.masthead__menu-item {
+  font-family: $font-body;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.masthead__menu-item--lg a {
+  white-space: nowrap;
+  font-family: $font-display;
+  font-weight: 700;
+  font-size: 1.15em;
+  letter-spacing: 0.01em;
+}
+
+.greedy-nav a:before { background: var(--accent); }
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  font-family: $font-body;
+  font-weight: 600;
+  font-size: 0.95em;
+  text-decoration: none !important;
+  padding: 0.55em 1.1em;
+  border-radius: 2px;
+  border: 1px solid var(--ink) !important;
+  background: transparent;
+  color: var(--ink) !important;
+  margin: 0 0.4em 0.5em 0;
+
+  &:hover { background: var(--ink); color: var(--paper) !important; }
+
+  &--primary {
+    background: var(--accent);
+    border-color: var(--accent) !important;
+    color: #fff !important;
+    &:hover { background: var(--accent-ink); border-color: var(--accent-ink) !important; color: #fff !important; }
+  }
+}
+
+/* ---------- Sidebar ---------- */
+
+.author__avatar img { border: 1px solid var(--line); padding: 3px; background: var(--paper); }
+.author__name { font-size: 1.35em; font-weight: 700; }
+.author__bio { color: var(--ink-soft); font-size: 0.95em; line-height: 1.45; }
+.author__urls { font-size: 0.95em; }
+
+/* ---------- Project list ---------- */
+
+.project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+  max-width: 72ch;
+}
+
+.project {
+  margin: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.project__link {
+  display: block;
+  padding: 1.25em 0 1.3em;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.project__title {
+  font-family: $font-display;
+  font-size: 1.55em;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.2em;
+  color: var(--ink);
+}
+
+.project__link:hover .project__title,
+.project__link:focus-visible .project__title {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+}
+
+.project__context {
+  color: var(--ink-soft);
+  font-size: 0.95em;
+  margin: 0 0 0.45em;
+}
+
+.project__summary {
+  margin: 0;
+  font-size: 1.02em;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.project-list__heading {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 2.5em 0 0.6em;
+}
+
+.project-list--minor .project__title { font-size: 1.3em; }
+
+/* ---------- Home ---------- */
+
+.home {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25em;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2.5em;
+  align-items: center;
+  padding: 3.5em 0 3em;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero__photo {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  padding: 4px;
+  background: var(--paper);
+}
+
+/* The name is "dimensioned" like a part on a drawing:
+   extension lines at each end, a dimension line with arrowheads,
+   and the label breaking the line in the middle. */
+.hero__dimensioned {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.hero__name {
+  font-family: $font-display;
+  font-weight: 700;
+  font-size: clamp(3rem, 8vw, 6.25rem);
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--ink);
+}
+
+.dimension {
+  --dim-color: var(--accent);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7em;
+  height: 1.4em;
+
+  /* extension lines */
+  border-left: 1px solid var(--dim-color);
+  border-right: 1px solid var(--dim-color);
+
+  /* dimension line */
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px solid var(--dim-color);
+  }
+
+}
+
+.dimension__arrow {
+  position: absolute;
+  top: 50%;
+  width: 11px;
+  height: 7px;
+  margin-top: -3px;
+  background: var(--dim-color);
+
+  &--start { left: 0;  clip-path: polygon(0 50%, 100% 0, 100% 100%); }
+  &--end   { right: 0; clip-path: polygon(100% 50%, 0 0, 0 100%); }
+}
+
+.dimension__label {
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  padding: 0 0.75em;
+  background: var(--paper);
+  color: var(--accent);
+  font-family: $font-body;
+  font-weight: 500;
+  font-size: clamp(0.8rem, 1.6vw, 1rem);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.hero__lede {
+  font-size: 1.15em;
+  line-height: 1.5;
+  max-width: 46ch;
+  margin: 1.4em 0 1.2em;
+  color: var(--ink);
+}
+
+.hero__actions { margin: 0; }
+
+.home__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 3.5em;
+  padding: 2.5em 0 1em;
+}
+
+.home__about { max-width: none; font-size: 1.05em; }
+.home__about p:first-child { margin-top: 0; }
+
+.home__heading {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 0 0.6em;
+}
+
+.home__projects .project__title { font-size: 1.35em; }
+
+.home__more {
+  display: inline-block;
+  margin-top: 1em;
+  font-weight: 600;
+}
+
+/* ---------- Footer ---------- */
+
+.page__footer {
+  position: relative;     /* the template pins it to the screen, covering content */
+  bottom: auto;
+  animation: none;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink-soft);
+  footer { padding-top: 1.5em; padding-bottom: 1.5em; }
+  a { color: var(--ink-soft); }
+}
+
+.page__footer-copyright { font-family: $font-body; font-size: 0.85em; }
+.page__footer-follow li { text-transform: none; font-family: $font-body; font-size: 0.9em; }
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding-top: 2em;
+  }
+  .hero__photo { width: 120px; height: 120px; }
+  .home__body { grid-template-columns: 1fr; gap: 2em; }
+  .page__title { font-size: 2em; }
+  .hero__name { font-size: 3.6rem; }
+  .dimension { height: auto; min-height: 1.4em; padding: 0.15em 0; }
+  .dimension__label {
+    white-space: normal;
+    text-align: center;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    max-width: 75%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

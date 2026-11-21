@@ -1,6 +1,7 @@
 ---
 title: "ESP32 - 1:10 Scale Bluetooth Race Car"
-excerpt: "A 3D-printed 1:10 race car designed from scratch with a custom gearbox, suspension, transmission and steering. Top speed: 42 mph <br/> (Ventura College, Physics final project, Spring 2026)"
+excerpt: "A 3D-printed 1:10 race car designed from scratch with a custom gearbox, suspension, transmission and steering. Top speed: 42 mph"
+context: "Ventura College, Physics final project, Spring 2026"
 collection: portfolio
 share: false
 comments: false

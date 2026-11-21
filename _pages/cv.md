@@ -19,7 +19,9 @@ Education
 * **Ventura College**, Ventura, CA
   * A.S. Mechanical Engineering, GPA 3.92/4.0, Aug 2024 – May 2026
   * A.S. Computer Science, 2022 – 2026
-  * Relevant coursework: Engineering Design/CAD, SolidWorks I (Engineering Mechanical Design), Engineering Statics, Electronic Circuit Analysis + Lab, MATLAB Programming, Engineering Physics I–III, Calculus I–III, Linear Algebra, Differential Equations
+  * **Engineering coursework:** Engineering Design/CAD, SolidWorks I (Engineering Mechanical Design), Engineering Statics, Electronic Circuit Analysis + Lab, MATLAB Programming
+  * **Math & science coursework:** Science/Engineering Physics 1–3, Calculus I–II, Multivariable Calculus, Linear Algebra, Differential Equations, General Chemistry I
+  * **Programming coursework:** Beginning C++, Object-Oriented Programming, Data Structures & Algorithms, Computer Architecture & Organization
   * Honors: Dean's List (6 terms)
 
 Experience
